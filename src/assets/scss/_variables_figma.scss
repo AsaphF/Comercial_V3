@@ -1,0 +1,81 @@
+/* Colors */
+
+$hero-green: #0dce9a;
+$dark-green: #2fb490;
+$darker-green: #068373;
+$light-green: #67debe;
+$lighter-green: #bef1e3;
+$lighter-green-status: #1ba38e26;
+$lighter-mid-green: #DDF1EE;
+$lightest-green: #e6fbf5;
+$link: #498ddc;
+$lightest-yellow: #f2d37b;
+$light-yellow: #F2C335;
+$dark-yellow: #e6ac00 !important;
+$darkest-yellow: #d8a200 !important;
+$red: #de6767;
+$light-red: #eb8f8f;
+$lighter-red: #f1bebe;
+$lightest-red: #fbe6e6;
+$black: #000000;
+$neutral900: #101223;
+$neutral800: #282a3a;
+$neutral700: #404252;
+$neutral600: #5b5d6b;
+$neutral500: #777986;
+$neutral400: #9496a1;
+$neutral300: #b3b5bd;
+$neutral200: #d2d4da;
+$neutral100: #eaeaea;
+$neutral50: #fafafa;
+$white: #ffffff;
+$logo-green: #0dce9a;
+$logo-green-dark: #07ad7e;
+$logo-white: #ffffff;
+$logo-white-dark: #dfdfdf;
+$logo-black: #363938;
+$logo-black-dark: #202322;
+
+/* Color Overrides */
+$primary: $hero-green;
+
+/* Buttons */
+$btn-font-size: 16px;
+$input-btn-padding-y: 10px;
+$input-btn-padding-x: 24px;
+$border-radius: 4px;
+
+/* Root Var Color Attribution */
+:root {
+    --hero-green: #{$hero-green};
+    --dark-green: #{$dark-green};
+    --darker-green: #{$darker-green};
+    --light-green: #{$light-green};
+    --light-green: #{$lighter-green};
+    --lightest-green: #{$lightest-green};
+    --link: #{$link};
+    --light-yellow: #{$light-yellow};
+    --darkest-yellow: #{$darkest-yellow};
+    --red: #{$red};
+    --light-red: #{$light-red};
+    --lighter-red: #{$lighter-red};
+    --lightest-red: #{$lightest-red};
+    --black: #{$black};
+    --neutral900: #{$neutral900};
+    --neutral800: #{$neutral800};
+    --neutral700: #{$neutral700};
+    --neutral600: #{$neutral600};
+    --neutral500: #{$neutral500};
+    --neutral400: #{$neutral400};
+    --neutral300: #{$neutral300};
+    --neutral200: #{$neutral200};
+    --neutral100: #{$neutral100};
+    --neutral50: #{$neutral50};
+    --white: #{$white};
+    --logo-green: #{$logo-green};
+    --logo-green-dark: #{$logo-green-dark};
+    --logo-white: #{$logo-white};
+    --logo-white-dark: #{$logo-white-dark};
+    --logo-black: #{$logo-black};
+    --logo-black-dark: #{$logo-black-dark};
+}

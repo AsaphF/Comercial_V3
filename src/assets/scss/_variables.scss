@@ -1,0 +1,31 @@
+$light: #fff;
+$background-gray: #f2f3f8;
+$green-light: rgba(6, 131, 115, .09) !important;
+$red-light: #e87979 !important;
+$yellow-light: #F2C335 !important;
+$gray-light: #d9d9d9 !important;
+$danger: #E56B5B !important;
+$success: #1BA38E !important;
+$warning: #e6ac00 !important;
+$featured: #068373 !important;
+$featured-light: #13cf9a !important;
+$featured-dark: #065247 !important;
+$background-gradient: linear-gradient(90deg, rgba(6, 131, 115, 1) 0%, rgba(6, 131, 115, 1) 0%, rgb(19, 207, 154) 100%);
+// #13cf9a
+//$background-gradient:linear-gradient(27deg, rgba(6, 131, 115, 1) 0%, rgba(27, 163, 142, 1) 70%);
+:root {
+    --background-gradient: #{$background-gradient};
+    --light: #{$light};
+    --primary: #{$featured};
+    --featured: #{$featured};
+    --featured-light: #{$featured-light};
+    --featured-dark: #{$featured-dark};
+    --background-gray: #{$background-gray};
+    --red-light: #{$red-light};
+    --yellow-light: #{$yellow-light};
+    --green-light: #{$green-light};
+    --success: #{$success};
+    --danger: #{$danger};
+    --warning: #{$warning};
+    --gray-light: #{$gray-light};
+}
